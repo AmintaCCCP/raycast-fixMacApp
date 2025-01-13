@@ -1,0 +1,43 @@
+{
+  "name": "fix-app-permission",
+  "title": "Fix App Permission",
+  "description": "修复应用程序的权限问题",
+  "icon": "command-icon.png",
+  "author": "tamina",
+  "categories": ["System"],
+  "license": "MIT",
+  "commands": [
+    {
+      "name": "fix",
+      "title": "Fix App Permission",
+      "description": "修复应用程序的权限问题",
+      "mode": "view"
+    }
+  ],
+  "preferences": [
+    {
+      "name": "sudoPassword",
+      "title": "Sudo Password",
+      "description": "用于执行sudo命令的密码",
+      "type": "password",
+      "required": false
+    }
+  ],
+  "dependencies": {
+    "@raycast/api": "^1.67.1",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/react": "^18.2.48",
+    "@typescript-eslint/eslint-plugin": "^6.19.0",
+    "@typescript-eslint/parser": "^6.19.0",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "build": "ray build -e dist",
+    "dev": "ray develop",
+    "lint": "ray lint"
+  }
+} 
