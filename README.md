@@ -22,6 +22,10 @@ Quickly delete the Quarantine attribute via Raycast and re-sign the application,
 2. Navigate to the directory, and open a Terminal window at the downloaded folder.
 3. Run `npm install` to install dependencies and `npm run dev` to build and import the extension.
 
+## Usage
+
+- After importing the extension, you need to set your **sudo password** in the extension settings.
+
 ## Screenshots
 
 ![screenshot](/img/screenshot.png)
